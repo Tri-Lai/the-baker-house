@@ -10,16 +10,20 @@ import SwiftUI
 struct ShopList: View {
     var body: some View {
         ZStack {
-            
             // Background
-            LinearGradient(colors: [ColorConstants.GOLD_FUSION, ColorConstants.YANKEES_BLUE], startPoint: .top, endPoint: .bottom)
+//            LinearGradient(colors: [ColorConstants.GOLD_FUSION,
+//                                    ColorConstants.YANKEES_BLUE],
+//                          startPoint: .top, endPoint: .bottom)
+//                .edgesIgnoringSafeArea(.bottom)
             
-            //
-            
-            
-            
+            VStack {
+                //
+                List(bakerShops) { shop in
+                    ShopListRow(bakerShop: shop)
+                }
+                //.navigationTitle("Baker shops")
+            }
         }
-        .edgesIgnoringSafeArea(.all)
     }
 }
 

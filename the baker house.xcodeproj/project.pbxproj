@@ -15,6 +15,8 @@
 		8412D0B62A738C6D004EB6F8 /* ColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */; };
 		8412D0B82A73949F004EB6F8 /* ShopListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0B72A73949F004EB6F8 /* ShopListRow.swift */; };
 		8412D0BC2A739B08004EB6F8 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BB2A739B08004EB6F8 /* CardModifier.swift */; };
+		8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */; };
+		8412D0C02A73A61E004EB6F8 /* BakerShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemes.swift; sourceTree = "<group>"; };
 		8412D0B72A73949F004EB6F8 /* ShopListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListRow.swift; sourceTree = "<group>"; };
 		8412D0BB2A739B08004EB6F8 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakerShop.swift; sourceTree = "<group>"; };
+		8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakerShopData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */,
+				8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */,
+				8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,8 +199,10 @@
 				8412D0B42A7387FF004EB6F8 /* ShopList.swift in Sources */,
 				8412D0BC2A739B08004EB6F8 /* CardModifier.swift in Sources */,
 				8412D0B82A73949F004EB6F8 /* ShopListRow.swift in Sources */,
+				8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */,
 				8412D0A32A73848A004EB6F8 /* ContentView.swift in Sources */,
 				8412D0A12A73848A004EB6F8 /* the_baker_houseApp.swift in Sources */,
+				8412D0C02A73A61E004EB6F8 /* BakerShopData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
