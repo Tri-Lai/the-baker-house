@@ -41,6 +41,7 @@ struct ShopListRow: View {
                     Image(systemName: "star.fill")
                         .foregroundColor(Color.yellow)
                     Text(bakerShop.rating.description)
+                        .font(.system(.footnote))
                 }
             }
             .padding(.leading, -5)
