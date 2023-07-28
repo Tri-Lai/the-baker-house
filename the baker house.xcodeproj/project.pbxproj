@@ -51,6 +51,8 @@
 		8412D09F2A73848A004EB6F8 /* the baker house */ = {
 			isa = PBXGroup;
 			children = (
+				8412D0B22A73873F004EB6F8 /* Models */,
+				8412D0AE2A73865E004EB6F8 /* Views */,
 				8412D0A02A73848A004EB6F8 /* the_baker_houseApp.swift */,
 				8412D0A22A73848A004EB6F8 /* ContentView.swift */,
 				8412D0A42A73848B004EB6F8 /* Assets.xcassets */,
@@ -65,6 +67,44 @@
 				8412D0A72A73848B004EB6F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8412D0AE2A73865E004EB6F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8412D0B12A738717004EB6F8 /* Detail */,
+				8412D0B02A73870A004EB6F8 /* Welcome */,
+				8412D0AF2A73867C004EB6F8 /* Shop List */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8412D0AF2A73867C004EB6F8 /* Shop List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Shop List";
+			sourceTree = "<group>";
+		};
+		8412D0B02A73870A004EB6F8 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		8412D0B12A738717004EB6F8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8412D0B22A73873F004EB6F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
