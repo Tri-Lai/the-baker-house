@@ -11,6 +11,8 @@
 		8412D0A32A73848A004EB6F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0A22A73848A004EB6F8 /* ContentView.swift */; };
 		8412D0A52A73848B004EB6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8412D0A42A73848B004EB6F8 /* Assets.xcassets */; };
 		8412D0A82A73848B004EB6F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8412D0A72A73848B004EB6F8 /* Preview Assets.xcassets */; };
+		8412D0B42A7387FF004EB6F8 /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0B32A7387FF004EB6F8 /* ShopList.swift */; };
+		8412D0B62A738C6D004EB6F8 /* ColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8412D0A22A73848A004EB6F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8412D0A42A73848B004EB6F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8412D0A72A73848B004EB6F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8412D0B32A7387FF004EB6F8 /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
+		8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		8412D0AF2A73867C004EB6F8 /* Shop List */ = {
 			isa = PBXGroup;
 			children = (
+				8412D0B32A7387FF004EB6F8 /* ShopList.swift */,
 			);
 			path = "Shop List";
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 		8412D0B22A73873F004EB6F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8412D0B62A738C6D004EB6F8 /* ColorSchemes.swift in Sources */,
+				8412D0B42A7387FF004EB6F8 /* ShopList.swift in Sources */,
 				8412D0A32A73848A004EB6F8 /* ContentView.swift in Sources */,
 				8412D0A12A73848A004EB6F8 /* the_baker_houseApp.swift in Sources */,
 			);
