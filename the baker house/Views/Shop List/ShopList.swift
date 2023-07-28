@@ -10,10 +10,16 @@ import SwiftUI
 struct ShopList: View {
     var body: some View {
         ZStack {
-            ColorConstants.
+            
+            // Background
+            LinearGradient(colors: [ColorConstants.GOLD_FUSION, ColorConstants.YANKEES_BLUE], startPoint: .top, endPoint: .bottom)
+            
+            //
+            
+            
+            
         }
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

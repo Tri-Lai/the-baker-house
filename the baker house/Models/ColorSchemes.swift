@@ -14,6 +14,7 @@ struct ColorConstants {
     static let ALABASTER = Color(red: 0.945, green: 0.929, blue: 0.898)
     static let KHAKI = Color(red: 0.714, green: 0.671, blue: 0.608)
     static let VAMPIRE_BLACK = Color(red: 0.035, green: 0.031, blue: 0.043)
+    static let YANKEES_BLUE = Color(red: 0.090, green: 0.0106, blue: 0.212)
     
     // Secondary
     static let COCONUT = Color(red: 0.584, green: 0.365, blue: 0.165)
