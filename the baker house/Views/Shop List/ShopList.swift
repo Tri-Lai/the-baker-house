@@ -10,7 +10,7 @@ import SwiftUI
 struct ShopList: View {
     var body: some View {
         ZStack {
-            
+            ColorConstants.
         }
         
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
