@@ -11,11 +11,14 @@ struct DescriptionView: View {
     let bakerShop: BakerShop
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Description")
-                .font(.system(size: 30, design: .serif))
-                .padding(.leading, 30)
-
+        VStack(alignment: .center) {
+            HStack {
+                Image(systemName: "doc.plaintext.fill")
+                Text("Description")
+                    .font(.title2)
+                    .fontDesign(.serif)
+            }
+            
             Text(bakerShop.description)
                 .foregroundColor(.white)
                 .font(.system(size: 18, weight: .thin, design: .serif))
@@ -23,6 +26,7 @@ struct DescriptionView: View {
                 .padding(30)
                 .background(ColorConstants.GOLD_FUSION)
                 .clipShape(Rectangle())
+                .cornerRadius(20)
         }
     }
 }

@@ -11,21 +11,26 @@ struct ShopCard: View {
     let bakerShop: BakerShop
     
     var body: some View {
-        VStack {
-            ScrollView {
-                Image(bakerShop.imageName)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .padding(.top, 0)
-                
-                InfoView(bakerShop: self.bakerShop)
-                
-                Divider()
-                
-                Spacer(minLength: 30)
-                
-                DescriptionView(bakerShop: self.bakerShop)
+        ZStack {
+            ColorConstants.BACKGROUND
+            VStack {
+                ScrollView {
+                    PhotoTabView()
+                        .padding(.vertical,20)
+                    
+                    InfoView(bakerShop: self.bakerShop)
+                    
+                    Divider()
+                    
+                    Spacer(minLength: 30)
+                    
+                    DescriptionView(bakerShop: self.bakerShop)
+                    
+                    Spacer(minLength: 30)
+                    OpeningHoursView()
+                }
             }
+            .edgesIgnoringSafeArea(.all)
         }
     }
 }

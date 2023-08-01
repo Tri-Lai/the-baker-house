@@ -19,7 +19,7 @@ struct InfoView: View {
             
             // Shop address
             Text(bakerShop.address)
-                .foregroundColor(ColorConstants.LIGHT_TAUPE)
+                .foregroundColor(ColorConstants.VAMPIRE_BLACK)
                 .font(.system(.subheadline))
                 .padding([.trailing, .leading], 30)
                 .padding(.top, 3)
