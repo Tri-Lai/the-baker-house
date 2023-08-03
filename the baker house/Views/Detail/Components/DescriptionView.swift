@@ -11,23 +11,34 @@ struct DescriptionView: View {
     let bakerShop: BakerShop
     
     var body: some View {
-        VStack(alignment: .center) {
-            HStack {
-                Image(systemName: "doc.plaintext.fill")
-                Text("Description")
-                    .font(.title2)
-                    .fontDesign(.serif)
-            }
+        VStack(alignment: .leading, spacing: 20) {
+            // Title
+            Text(bakerShop.name)
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .foregroundColor(Color("TLJ_logo"))
+            
+            // Subheadline
+            Text("\"\(bakerShop.subheading)\"")
+                .font(.italic(.subheadline)())
+            
+            // Description
+            Text("Our story")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(Color("TLJ_logo"))
+                .padding(.top, 20)
             
             Text(bakerShop.description)
-                .foregroundColor(.white)
-                .font(.system(size: 18, weight: .thin, design: .serif))
-                .lineSpacing(5)
-                .padding(30)
-                .background(ColorConstants.GOLD_FUSION)
-                .clipShape(Rectangle())
-                .cornerRadius(20)
-        }
+                .font(.body)
+                .multilineTextAlignment(.leading)
+                .fontDesign(.serif)
+                .lineSpacing(10)
+
+        } // VStack (content)
+        .fontDesign(.serif)
+        .padding(.horizontal, 20)
+        .frame(maxWidth: 640, alignment: .center)
     }
 }
 

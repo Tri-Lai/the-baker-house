@@ -57,7 +57,7 @@ struct OpeningHoursView: View {
             .font(.system(size: 18, weight: .thin, design: .serif))
             .lineSpacing(5)
             .padding(30)
-            .background(ColorConstants.YANKEES_BLUE)
+            .background(Color("TLJ_logo"))
             .clipShape(Rectangle())
             .cornerRadius(20)
         }

@@ -11,27 +11,36 @@ struct ShopCard: View {
     let bakerShop: BakerShop
     
     var body: some View {
-        ZStack {
-            ColorConstants.BACKGROUND
-            VStack {
-                ScrollView {
-                    PhotoTabView()
-                        .padding(.vertical,20)
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .center, spacing: 20) {
+                    // Header
+                    ShopHeaderView(bakerShop: bakerShop)
+              
+                    // Content
+                    ContactView()
+                    Image("accent-horizontal-lines")
+                        .frame(maxHeight: 100)
                     
-                    InfoView(bakerShop: self.bakerShop)
+                    DescriptionView(bakerShop: bakerShop)
                     
-                    Divider()
+                    Image("accent-horizontal-lines")
+                        .frame(maxHeight: 100)
                     
-                    Spacer(minLength: 30)
-                    
-                    DescriptionView(bakerShop: self.bakerShop)
-                    
-                    Spacer(minLength: 30)
                     OpeningHoursView()
-                }
-            }
-            .edgesIgnoringSafeArea(.all)
-        }
+                    
+                    LocationView(bakerShop: bakerShop)
+                    
+                    FooterView()
+                } // VStack (Header + content)
+                .navigationTitle(Text("Tous les Jours"))
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar(.hidden, for: .navigationBar)
+                
+            } // ScrollView
+            .edgesIgnoringSafeArea(.top)
+            
+        } // NavigationView
     }
 }
 
