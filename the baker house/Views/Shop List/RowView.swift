@@ -9,11 +9,12 @@ import SwiftUI
 
 struct RowView: View {
     var shop: BakerShop
-    
+        
     var body: some View {
         let splitedAddress = shop.address.components(separatedBy: ",")
         let shortAddress = getShort(address: splitedAddress)
-    
+        let iconList = mapCategory(categories: shop.category)
+
         HStack {
             Image(shop.imageName)
                 .resizable()
@@ -26,10 +27,18 @@ struct RowView: View {
                 .cornerRadius(8)
             
             VStack(alignment: .leading) {
+                // Store name
                 Text(shop.name)
                     .font(.title2)
                     .fontWeight(.bold)
-
+                
+                HStack {
+                    ForEach(0..<iconList.count, id: \.self) {
+                        Image(iconList[$0])
+                    }
+                }
+                
+                // Store address
                 Text(shortAddress)
                     .font(.caption)
                     .foregroundColor(Color.secondary)
@@ -47,7 +56,7 @@ func getShort(address: [String]) -> String {
     var res = ""
     for idx in 0..<address.count-1 {
         // Check for not putting comma char at the end of address
-        var comma = (idx != address.count-2) ? "," : ""
+        let comma = (idx != address.count-2) ? "," : ""
         res += address[idx] + comma
     }
     
@@ -56,6 +65,6 @@ func getShort(address: [String]) -> String {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(shop: bakerShops[0])
+        RowView(shop: bakerShops[1])
     }
 }

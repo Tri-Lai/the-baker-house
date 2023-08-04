@@ -16,6 +16,7 @@ struct BakerShop: Identifiable {
     var description: String
     var address: String
     var rating: Float
+    var category: [String]
     
     var imageName: String
     var image: Image {

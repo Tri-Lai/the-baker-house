@@ -17,6 +17,7 @@ struct ShopList: View {
                     RowView(shop: shop)
                 }
             }
+            .navigationTitle("STORES")
         } // NavigationView
     }
 }

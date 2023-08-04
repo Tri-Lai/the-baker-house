@@ -27,6 +27,7 @@
 		845B5B9B2A7BF3DD00B427FD /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9A2A7BF3DD00B427FD /* LocationView.swift */; };
 		845B5B9D2A7BF77100B427FD /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9C2A7BF77100B427FD /* FooterView.swift */; };
 		845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9E2A7C12C500B427FD /* RowView.swift */; };
+		8472FD802A7CD1C100FFD026 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472FD7F2A7CD1C100FFD026 /* helper.swift */; };
 		84A12D132A73F6810055A10B /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A12D122A73F6810055A10B /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		845B5B9A2A7BF3DD00B427FD /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		845B5B9C2A7BF77100B427FD /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		845B5B9E2A7C12C500B427FD /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		8472FD7F2A7CD1C100FFD026 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		84A12D122A73F6810055A10B /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				8412D0A22A73848A004EB6F8 /* ContentView.swift */,
 				8412D0A42A73848B004EB6F8 /* Assets.xcassets */,
 				8412D0A62A73848B004EB6F8 /* Preview Content */,
+				8472FD7F2A7CD1C100FFD026 /* helper.swift */,
 			);
 			path = "the baker house";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				841BDCAE2A794626001425C5 /* PhotoTabView.swift in Sources */,
 				845B5B972A7BE6E300B427FD /* MapView.swift in Sources */,
 				845B5B9D2A7BF77100B427FD /* FooterView.swift in Sources */,
+				8472FD802A7CD1C100FFD026 /* helper.swift in Sources */,
 				8412D0B62A738C6D004EB6F8 /* ColorSchemes.swift in Sources */,
 				8412D0B42A7387FF004EB6F8 /* ShopList.swift in Sources */,
 				845B5B9B2A7BF3DD00B427FD /* LocationView.swift in Sources */,
