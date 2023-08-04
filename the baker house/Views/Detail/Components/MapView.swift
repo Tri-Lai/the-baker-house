@@ -13,19 +13,23 @@ struct MapView: View {
     @State private var region = MKCoordinateRegion();
     
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region,
+            annotationItems: bakerShops) {
+            MapMarker(coordinate: $0.location, tint: .red)
+        }
             .onAppear {
                 region = MKCoordinateRegion(
                     center: coordinate,
-                    span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
+                    span: MKCoordinateSpan(latitudeDelta: 0.002, longitudeDelta: 0.002)
                 )
             }
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 10.749997,
-                                                   longitude: 106.666664))
+        MapView(coordinate: CLLocationCoordinate2D(latitude: 10.776783,
+                                                   longitude: 106.696407))
     }
 }

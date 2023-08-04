@@ -17,9 +17,7 @@
 		8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */; };
 		8412D0C02A73A61E004EB6F8 /* BakerShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */; };
 		8412D0C22A73B2CA004EB6F8 /* ShopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0C12A73B2CA004EB6F8 /* ShopCard.swift */; };
-		8412D0C42A73B329004EB6F8 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0C32A73B329004EB6F8 /* InfoView.swift */; };
-		841BDCAC2A79443A001425C5 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BDCAB2A79443A001425C5 /* PhotoView.swift */; };
-		841BDCAE2A794626001425C5 /* PhotoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BDCAD2A794626001425C5 /* PhotoTabView.swift */; };
+		841BDCAC2A79443A001425C5 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BDCAB2A79443A001425C5 /* FoodView.swift */; };
 		841BDCB02A7949BE001425C5 /* OpeningHoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BDCAF2A7949BE001425C5 /* OpeningHoursView.swift */; };
 		845B5B952A7BBEB500B427FD /* ShopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B942A7BBEB500B427FD /* ShopHeaderView.swift */; };
 		845B5B972A7BE6E300B427FD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B962A7BE6E300B427FD /* MapView.swift */; };
@@ -28,6 +26,9 @@
 		845B5B9D2A7BF77100B427FD /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9C2A7BF77100B427FD /* FooterView.swift */; };
 		845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9E2A7C12C500B427FD /* RowView.swift */; };
 		8472FD802A7CD1C100FFD026 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472FD7F2A7CD1C100FFD026 /* helper.swift */; };
+		8472FD822A7D2E4C00FFD026 /* baker_store.json in Resources */ = {isa = PBXBuildFile; fileRef = 8472FD812A7D2E4C00FFD026 /* baker_store.json */; };
+		8472FD892A7D4D3200FFD026 /* FoodTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472FD882A7D4D3200FFD026 /* FoodTabView.swift */; };
+		8472FD8B2A7D53F200FFD026 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472FD8A2A7D53F200FFD026 /* MenuView.swift */; };
 		84A12D132A73F6810055A10B /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A12D122A73F6810055A10B /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,9 +44,7 @@
 		8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakerShop.swift; sourceTree = "<group>"; };
 		8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakerShopData.swift; sourceTree = "<group>"; };
 		8412D0C12A73B2CA004EB6F8 /* ShopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard.swift; sourceTree = "<group>"; };
-		8412D0C32A73B329004EB6F8 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		841BDCAB2A79443A001425C5 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
-		841BDCAD2A794626001425C5 /* PhotoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTabView.swift; sourceTree = "<group>"; };
+		841BDCAB2A79443A001425C5 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		841BDCAF2A7949BE001425C5 /* OpeningHoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHoursView.swift; sourceTree = "<group>"; };
 		845B5B942A7BBEB500B427FD /* ShopHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopHeaderView.swift; sourceTree = "<group>"; };
 		845B5B962A7BE6E300B427FD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -54,6 +53,9 @@
 		845B5B9C2A7BF77100B427FD /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		845B5B9E2A7C12C500B427FD /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		8472FD7F2A7CD1C100FFD026 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		8472FD812A7D2E4C00FFD026 /* baker_store.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baker_store.json; sourceTree = "<group>"; };
+		8472FD882A7D4D3200FFD026 /* FoodTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTabView.swift; sourceTree = "<group>"; };
+		8472FD8A2A7D53F200FFD026 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		84A12D122A73F6810055A10B /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,13 +89,13 @@
 		8412D09F2A73848A004EB6F8 /* the baker house */ = {
 			isa = PBXGroup;
 			children = (
+				8472FD832A7D3EF600FFD026 /* Functions */,
 				8412D0B22A73873F004EB6F8 /* Models */,
 				8412D0AE2A73865E004EB6F8 /* Views */,
 				8412D0A02A73848A004EB6F8 /* the_baker_houseApp.swift */,
 				8412D0A22A73848A004EB6F8 /* ContentView.swift */,
 				8412D0A42A73848B004EB6F8 /* Assets.xcassets */,
 				8412D0A62A73848B004EB6F8 /* Preview Content */,
-				8472FD7F2A7CD1C100FFD026 /* helper.swift */,
 			);
 			path = "the baker house";
 			sourceTree = "<group>";
@@ -148,6 +150,7 @@
 				8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */,
 				8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */,
 				8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */,
+				8472FD812A7D2E4C00FFD026 /* baker_store.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -155,18 +158,26 @@
 		8412D0C52A73B33F004EB6F8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				8412D0C32A73B329004EB6F8 /* InfoView.swift */,
 				84A12D122A73F6810055A10B /* DescriptionView.swift */,
-				841BDCAB2A79443A001425C5 /* PhotoView.swift */,
-				841BDCAD2A794626001425C5 /* PhotoTabView.swift */,
+				841BDCAB2A79443A001425C5 /* FoodView.swift */,
+				8472FD882A7D4D3200FFD026 /* FoodTabView.swift */,
 				841BDCAF2A7949BE001425C5 /* OpeningHoursView.swift */,
 				845B5B942A7BBEB500B427FD /* ShopHeaderView.swift */,
 				845B5B962A7BE6E300B427FD /* MapView.swift */,
 				845B5B982A7BEEFC00B427FD /* ContactView.swift */,
 				845B5B9A2A7BF3DD00B427FD /* LocationView.swift */,
 				845B5B9C2A7BF77100B427FD /* FooterView.swift */,
+				8472FD8A2A7D53F200FFD026 /* MenuView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		8472FD832A7D3EF600FFD026 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				8472FD7F2A7CD1C100FFD026 /* helper.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8472FD822A7D2E4C00FFD026 /* baker_store.json in Resources */,
 				8412D0A82A73848B004EB6F8 /* Preview Assets.xcassets in Resources */,
 				8412D0A52A73848B004EB6F8 /* Assets.xcassets in Resources */,
 			);
@@ -239,16 +251,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841BDCAE2A794626001425C5 /* PhotoTabView.swift in Sources */,
 				845B5B972A7BE6E300B427FD /* MapView.swift in Sources */,
 				845B5B9D2A7BF77100B427FD /* FooterView.swift in Sources */,
 				8472FD802A7CD1C100FFD026 /* helper.swift in Sources */,
 				8412D0B62A738C6D004EB6F8 /* ColorSchemes.swift in Sources */,
 				8412D0B42A7387FF004EB6F8 /* ShopList.swift in Sources */,
+				8472FD8B2A7D53F200FFD026 /* MenuView.swift in Sources */,
 				845B5B9B2A7BF3DD00B427FD /* LocationView.swift in Sources */,
 				8412D0BC2A739B08004EB6F8 /* CardModifier.swift in Sources */,
-				841BDCAC2A79443A001425C5 /* PhotoView.swift in Sources */,
+				841BDCAC2A79443A001425C5 /* FoodView.swift in Sources */,
 				8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */,
+				8472FD892A7D4D3200FFD026 /* FoodTabView.swift in Sources */,
 				8412D0A32A73848A004EB6F8 /* ContentView.swift in Sources */,
 				845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */,
 				8412D0A12A73848A004EB6F8 /* the_baker_houseApp.swift in Sources */,
@@ -256,7 +269,6 @@
 				84A12D132A73F6810055A10B /* DescriptionView.swift in Sources */,
 				8412D0C22A73B2CA004EB6F8 /* ShopCard.swift in Sources */,
 				845B5B952A7BBEB500B427FD /* ShopHeaderView.swift in Sources */,
-				8412D0C42A73B329004EB6F8 /* InfoView.swift in Sources */,
 				8412D0C02A73A61E004EB6F8 /* BakerShopData.swift in Sources */,
 				841BDCB02A7949BE001425C5 /* OpeningHoursView.swift in Sources */,
 			);

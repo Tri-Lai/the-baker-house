@@ -28,9 +28,11 @@ struct ShopCard: View {
                         .frame(maxHeight: 100)
                     
                     OpeningHoursView()
+                                        
+                    MenuView(store: bakerShop)
                     
                     LocationView(bakerShop: bakerShop)
-                    
+
                     FooterView()
                 } // VStack (Header + content)
                 .navigationTitle(Text("Tous les Jours"))

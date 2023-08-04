@@ -19,9 +19,12 @@ struct BakerShop: Identifiable {
     var category: [String]
     
     var imageName: String
-    var image: Image {
-        Image(imageName)
-    }
+    var foods: [Food]
     
     var location: CLLocationCoordinate2D
+}
+
+struct Food: Identifiable {
+    var id = UUID()
+    var imageName: String
 }

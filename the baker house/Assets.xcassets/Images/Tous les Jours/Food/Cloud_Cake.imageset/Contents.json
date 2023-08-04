@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "paris-gateaux-logo.jpeg",
+      "filename" : "Cloud_Cake.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Cloud_Cake@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Cloud_Cake@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
