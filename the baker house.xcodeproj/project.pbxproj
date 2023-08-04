@@ -13,7 +13,6 @@
 		8412D0A82A73848B004EB6F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8412D0A72A73848B004EB6F8 /* Preview Assets.xcassets */; };
 		8412D0B42A7387FF004EB6F8 /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0B32A7387FF004EB6F8 /* ShopList.swift */; };
 		8412D0B62A738C6D004EB6F8 /* ColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */; };
-		8412D0B82A73949F004EB6F8 /* ShopListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0B72A73949F004EB6F8 /* ShopListRow.swift */; };
 		8412D0BC2A739B08004EB6F8 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BB2A739B08004EB6F8 /* CardModifier.swift */; };
 		8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */; };
 		8412D0C02A73A61E004EB6F8 /* BakerShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */; };
@@ -27,6 +26,7 @@
 		845B5B992A7BEEFC00B427FD /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B982A7BEEFC00B427FD /* ContactView.swift */; };
 		845B5B9B2A7BF3DD00B427FD /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9A2A7BF3DD00B427FD /* LocationView.swift */; };
 		845B5B9D2A7BF77100B427FD /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9C2A7BF77100B427FD /* FooterView.swift */; };
+		845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9E2A7C12C500B427FD /* RowView.swift */; };
 		84A12D132A73F6810055A10B /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A12D122A73F6810055A10B /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,6 @@
 		8412D0A72A73848B004EB6F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8412D0B32A7387FF004EB6F8 /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
 		8412D0B52A738C6D004EB6F8 /* ColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemes.swift; sourceTree = "<group>"; };
-		8412D0B72A73949F004EB6F8 /* ShopListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListRow.swift; sourceTree = "<group>"; };
 		8412D0BB2A739B08004EB6F8 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
 		8412D0BD2A73A3A5004EB6F8 /* BakerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakerShop.swift; sourceTree = "<group>"; };
 		8412D0BF2A73A61E004EB6F8 /* BakerShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakerShopData.swift; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		845B5B982A7BEEFC00B427FD /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		845B5B9A2A7BF3DD00B427FD /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		845B5B9C2A7BF77100B427FD /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		845B5B9E2A7C12C500B427FD /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		84A12D122A73F6810055A10B /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				8412D0B32A7387FF004EB6F8 /* ShopList.swift */,
-				8412D0B72A73949F004EB6F8 /* ShopListRow.swift */,
 				8412D0BB2A739B08004EB6F8 /* CardModifier.swift */,
+				845B5B9E2A7C12C500B427FD /* RowView.swift */,
 			);
 			path = "Shop List";
 			sourceTree = "<group>";
@@ -244,9 +244,9 @@
 				845B5B9B2A7BF3DD00B427FD /* LocationView.swift in Sources */,
 				8412D0BC2A739B08004EB6F8 /* CardModifier.swift in Sources */,
 				841BDCAC2A79443A001425C5 /* PhotoView.swift in Sources */,
-				8412D0B82A73949F004EB6F8 /* ShopListRow.swift in Sources */,
 				8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */,
 				8412D0A32A73848A004EB6F8 /* ContentView.swift in Sources */,
+				845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */,
 				8412D0A12A73848A004EB6F8 /* the_baker_houseApp.swift in Sources */,
 				845B5B992A7BEEFC00B427FD /* ContactView.swift in Sources */,
 				84A12D132A73F6810055A10B /* DescriptionView.swift in Sources */,
