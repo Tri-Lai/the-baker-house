@@ -25,6 +25,8 @@
 		845B5B9B2A7BF3DD00B427FD /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9A2A7BF3DD00B427FD /* LocationView.swift */; };
 		845B5B9D2A7BF77100B427FD /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9C2A7BF77100B427FD /* FooterView.swift */; };
 		845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B9E2A7C12C500B427FD /* RowView.swift */; };
+		8469AB1E2A7E62CD007A6BAB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469AB1D2A7E62CD007A6BAB /* WelcomeView.swift */; };
+		8469AB202A7E62DC007A6BAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469AB1F2A7E62DC007A6BAB /* OnboardingView.swift */; };
 		8472FD802A7CD1C100FFD026 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472FD7F2A7CD1C100FFD026 /* helper.swift */; };
 		8472FD822A7D2E4C00FFD026 /* baker_store.json in Resources */ = {isa = PBXBuildFile; fileRef = 8472FD812A7D2E4C00FFD026 /* baker_store.json */; };
 		8472FD8B2A7D53F200FFD026 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472FD8A2A7D53F200FFD026 /* MenuView.swift */; };
@@ -52,6 +54,8 @@
 		845B5B9A2A7BF3DD00B427FD /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		845B5B9C2A7BF77100B427FD /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		845B5B9E2A7C12C500B427FD /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		8469AB1D2A7E62CD007A6BAB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = "the baker house/Views/WelcomeView.swift"; sourceTree = SOURCE_ROOT; };
+		8469AB1F2A7E62DC007A6BAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = "the baker house/Views/OnboardingView.swift"; sourceTree = SOURCE_ROOT; };
 		8472FD7F2A7CD1C100FFD026 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		8472FD812A7D2E4C00FFD026 /* baker_store.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baker_store.json; sourceTree = "<group>"; };
 		8472FD8A2A7D53F200FFD026 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 		8412D0B02A73870A004EB6F8 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				8469AB1D2A7E62CD007A6BAB /* WelcomeView.swift */,
+				8469AB1F2A7E62DC007A6BAB /* OnboardingView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -264,6 +270,7 @@
 				8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */,
 				8412D0A32A73848A004EB6F8 /* ContentView.swift in Sources */,
 				845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */,
+				8469AB1E2A7E62CD007A6BAB /* WelcomeView.swift in Sources */,
 				8412D0A12A73848A004EB6F8 /* the_baker_houseApp.swift in Sources */,
 				845B5B992A7BEEFC00B427FD /* ContactView.swift in Sources */,
 				84A12D132A73F6810055A10B /* DescriptionView.swift in Sources */,
@@ -271,6 +278,7 @@
 				845B5B952A7BBEB500B427FD /* ShopHeaderView.swift in Sources */,
 				8412D0C02A73A61E004EB6F8 /* BakerShopData.swift in Sources */,
 				841BDCB02A7949BE001425C5 /* OpeningHoursView.swift in Sources */,
+				8469AB202A7E62DC007A6BAB /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
