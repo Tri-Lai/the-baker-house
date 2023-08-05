@@ -8,17 +8,29 @@
 import SwiftUI
 
 struct ShopList: View {
+    @State private var stores: [BakerShop] = bakerShops
+    @State private var searchItem: String = ""
+
+    private var filteredStores: [BakerShop] {
+        // Return the all the stores in case no search text given.
+        // Otherwise, show the list of matching store against search text.
+        guard !searchItem.isEmpty else { return stores }
+        return stores.filter{ $0.name.localizedCaseInsensitiveContains(searchItem) }
+    }
+    
     var body: some View {
-        NavigationView {
-            List(bakerShops) { shop in
+        NavigationStack {
+            List(filteredStores) { store in
                 NavigationLink {
-                    ShopCard(bakerShop: shop)
+                    ShopCard(bakerShop: store)
                 } label: {
-                    RowView(shop: shop)
+                    RowView(shop: store)
                 }
             }
-            .navigationTitle("STORES")
-        } // NavigationView
+            .navigationTitle("Stores")
+            .animation(.default, value: searchItem)
+            .searchable(text: $searchItem, prompt: "Search stores")
+        } // NavigationStack
     }
 }
 
