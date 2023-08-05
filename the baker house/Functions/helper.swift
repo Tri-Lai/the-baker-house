@@ -29,7 +29,7 @@ func mapCategory(categories: [String]) -> [String] {
             categoryIconList.append("wedding-cake-icon")
             
         case "Cupcake":
-            categoryIconList.append("cup-cake-icon")
+            categoryIconList.append("cupcake-icon")
             
         default: // Moon cake
             categoryIconList.append("moon-cake-icon")

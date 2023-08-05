@@ -38,9 +38,9 @@ var bakerShops: [BakerShop] = [
                                                longitude: 106.666664)),
     
     BakerShop(name: "Tiệm bánh MADI",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
-              address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
+              subheading: "Beyond the cake, Be your love",
+              description: "Each cake made at MaDi is a story that MaDi helps you express love on your behalf. We create each cake based on your story, feelings, and the specific interests of the person you care about. And each MaDi product is meticulously made in terms of appearance to ensure that everything you want to convey and express can surprise the person you give it to. And that gift also makes your relationship with your partner beautiful and complete from the inside. Therefore, MaDi pays a lot of attention to the taste of the cake, which is gorgeous, awakens the taste buds, and makes the special day for you and your loved ones complete.",
+              address: "31 Nguyễn Trung Ngạn, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh 70000",
               rating: 4.5,
               category: ["Cake"],
               imageName: "madi-logo",
@@ -62,14 +62,14 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
+              location: CLLocationCoordinate2D(latitude: 10.782751400251206,
+                                               longitude: 106.7044124557825)),
     
     BakerShop(name: "Paris Baguette",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
-              address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
-              rating: 4.5,
+              subheading: "Happy to see you. Even happier to serve you. Welcome to your neighborhood bakery café.",
+              description: "The spirit of Sangmidang\\nOur origins were formed in 1945, in the heart of a small bakery in South Korea named Sangmidang. The spirit of Sangmidang, which is to not leave a single piece of bread unchecked, is still with us 76 years later.\\nBorn from a love of bread and a passion for quality\\nIn 1988, Paris Baguette began with its first store in South Korea. And now, we are an international fast-casual bakery and franchise specializing in French-inspired goods.",
+              address: "01 Đ. Cao Thắng, Phường 2, Quận 3, Thành phố Hồ Chí Minh 70000",
+              rating: 3.9,
               category: ["Pastry",  "Gourmet"],
               imageName: "paris-baguette-logo",
               foods: [
@@ -90,8 +90,8 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
+              location: CLLocationCoordinate2D(latitude: 10.784205162009378,
+                                               longitude: 106.69686768593894)),
 
     BakerShop(name: "Kinh Đô",
               subheading: "Freshly Baked Everyday",
@@ -206,9 +206,9 @@ var bakerShops: [BakerShop] = [
                                                longitude: 106.666664)),
     
     BakerShop(name: "Sweet Home Bakery",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
-              address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
+              subheading: "Fresh Everyday",
+              description: "For more than 20 years of establishment and development, SWEETHOME BAKERY has always taken the goal of CAREING YOUR HEALTH as the main goal, to devote ourselves to trying our best to produce products with high nutritional value, ensuring safety. Sanitize food to serve customers.\r\n\r\nBurning with passion in the field of pastries, Mr. Luu Lap Chanh - the founder and his associates have undergone the process of research, testing as well as selection of raw materials, in order to create products. accordance with their own guidelines and criteria.\r\n\r\nThe typical product lines of Sweethome Bakery such as: ice cream cake, moon cake, bread, Kim Bao cake ... have been trusted by customers to be chosen as gifts during Tet holidays such as New Year, Mid-Autumn Festival, birthday, birthday. party, party or simply to enjoy a delicious cake.\r\n \r\nAlong with the criterion \"CUSTOMERS IS GOD\", Sweethome Bakery always:\r\n- Continuously research and improve product quality.\r\n- All activities of Sweethome Bakery focus on meeting the needs of customers, in parallel with improving the service quality management system.",
+              address: "35 Xô Viết Nghệ Tĩnh, Phường 17, Bình Thạnh, Thành phố Hồ Chí Minh",
               rating: 4.5,
               category: ["Pastry", "Cake", "Cupcake"],
               imageName: "sweet-home-logo",
@@ -230,8 +230,8 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
+              location: CLLocationCoordinate2D(latitude: 10.799543124365599,
+                                               longitude: 106.70860177818224)),
     
     BakerShop(name: "BreadTalk",
               subheading: "Freshly Baked Everyday",
