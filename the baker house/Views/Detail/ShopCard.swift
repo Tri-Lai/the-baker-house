@@ -11,6 +11,8 @@ struct ShopCard: View {
     let bakerShop: BakerShop
     
     var body: some View {
+        let iconCategoryList = mapCategory(categories: bakerShop.category)
+
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .center, spacing: 20) {
@@ -18,20 +20,33 @@ struct ShopCard: View {
                     ShopHeaderView(bakerShop: bakerShop)
               
                     // Content
-                    ContactView()
+                    
+                    // Category
+                    HStack {
+                        ForEach(0..<iconCategoryList.count, id: \.self) {
+                            Image(iconCategoryList[$0])
+                                .padding(10)
+                                .background(Color.primary)
+                                .clipShape(Circle())
+                        }
+                    }   // HStack
+                    
+                    // Breaker
                     Image("accent-horizontal-lines")
                         .frame(maxHeight: 100)
                     
                     DescriptionView(bakerShop: bakerShop)
                     
+                    // Breaker
                     Image("accent-horizontal-lines")
                         .frame(maxHeight: 100)
                     
                     OpeningHoursView()
-                    
+                    MenuView(store: bakerShop)
                     LocationView(bakerShop: bakerShop)
-                    
+                    ContactView()
                     FooterView()
+                    
                 } // VStack (Header + content)
                 .navigationTitle(Text("Tous les Jours"))
                 .navigationBarTitleDisplayMode(.inline)
