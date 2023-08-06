@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     @Binding var active: Bool
-    @State var showAlert: Bool = false
+    @State private var showAlert: Bool = false
     
     var body: some View {
         ZStack {

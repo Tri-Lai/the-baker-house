@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ShopList: View {
+    // Store the current mode theme even the user close app
+    @AppStorage("isDarkMode") private var isDarkMode = false
+    
     @State private var stores: [BakerShop] = bakerShops
     @State private var searchItem: String = ""
 
@@ -20,17 +23,30 @@ struct ShopList: View {
     
     var body: some View {
         NavigationStack {
-            List(filteredStores) { store in
-                NavigationLink {
-                    ShopCard(bakerShop: store)
-                } label: {
-                    RowView(shop: store)
+            VStack {
+                List(filteredStores) { store in
+                    NavigationLink {
+                        ShopCard(bakerShop: store)
+                    } label: {
+                        RowView(shop: store)
+                    }
                 }
+            }
+            .toolbar {
+                ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing) {
+                        Button(action:  { isDarkMode.toggle() },
+                               label:   { isDarkMode ?
+                                        Label("Dark", systemImage: "moon.fill"):
+                                        Label("Light", systemImage: "sun.max.fill")
+                            })
+                    }
             }
             .navigationTitle("Stores")
             .animation(.default, value: searchItem)
             .searchable(text: $searchItem, prompt: "Search stores")
+            
         } // NavigationStack
+        .environment(\.colorScheme, isDarkMode ? .dark : .light)
     }
 }
 
