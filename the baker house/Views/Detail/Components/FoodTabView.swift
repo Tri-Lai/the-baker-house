@@ -18,7 +18,7 @@ struct FoodTabView: View {
                     .padding(.horizontal, 15)
             }
         }
-        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+          .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
     }
 }
 

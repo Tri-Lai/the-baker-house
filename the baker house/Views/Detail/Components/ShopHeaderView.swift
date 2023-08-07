@@ -14,11 +14,10 @@ struct ShopHeaderView: View {
     var body: some View {
         ZStack {
             Color("Tous les Jours")
-            Image("Tous_les_Jours")
+            Image(bakerShop.imageName)
                 .resizable()
                 .scaledToFit()
                 .shadow(radius: 8)
-                .padding(.vertical, 20)
                 .scaleEffect(isAnimatingImage ? 1.0 : 0.6)
         }
         .frame(height: 440)

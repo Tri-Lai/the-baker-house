@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FoodView: View {
     let food: Food
-    
+
     var body: some View {
         Image(food.imageName)
             .resizable()

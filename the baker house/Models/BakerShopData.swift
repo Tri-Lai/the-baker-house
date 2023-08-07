@@ -36,7 +36,7 @@ var bakerShops: [BakerShop] = [
               ],
               location: CLLocationCoordinate2D(latitude: 10.749997,
                                                longitude: 106.666664)),
-    
+
     BakerShop(name: "Tiệm bánh MADI",
               subheading: "Beyond the cake, Be your love",
               description: "Each cake made at MaDi is a story that MaDi helps you express love on your behalf. We create each cake based on your story, feelings, and the specific interests of the person you care about. And each MaDi product is meticulously made in terms of appearance to ensure that everything you want to convey and express can surprise the person you give it to. And that gift also makes your relationship with your partner beautiful and complete from the inside. Therefore, MaDi pays a lot of attention to the taste of the cake, which is gorgeous, awakens the taste buds, and makes the special day for you and your loved ones complete.",
@@ -64,7 +64,7 @@ var bakerShops: [BakerShop] = [
               ],
               location: CLLocationCoordinate2D(latitude: 10.782751400251206,
                                                longitude: 106.7044124557825)),
-    
+
     BakerShop(name: "Paris Baguette",
               subheading: "Happy to see you. Even happier to serve you. Welcome to your neighborhood bakery café.",
               description: "The spirit of Sangmidang\\nOur origins were formed in 1945, in the heart of a small bakery in South Korea named Sangmidang. The spirit of Sangmidang, which is to not leave a single piece of bread unchecked, is still with us 76 years later.\\nBorn from a love of bread and a passion for quality\\nIn 1988, Paris Baguette began with its first store in South Korea. And now, we are an international fast-casual bakery and franchise specializing in French-inspired goods.",
@@ -94,8 +94,8 @@ var bakerShops: [BakerShop] = [
                                                longitude: 106.69686768593894)),
 
     BakerShop(name: "Kinh Đô",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
+              subheading: "TẾT TRUNG THU, TẾT CỦA TÌNH THÂN",
+              description: "Kinh Do Bakery specializes in manufacturing and trading snacks in Vietnam, the main products are mainly confectionery and ice cream. Currently Kinh Do is one of the most profitable private companies in the market today.\r\nKinh Do's products have the typical flavor of Vietnamese cuisine. Each season, the company has unique and appropriate product sets. Almost all of the company's products are available in every region of Vietnam. This is also a brand that has won the hearts of the majority of consumers in our country.",
               address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
               rating: 4.5,
               category: ["Moon cake"],
@@ -118,40 +118,12 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
-    
-    BakerShop(name: "Đức Phát",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
-              address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
-              rating: 4.5,
-              category: ["Pastry", "Cupcake", "Cake"],
-              imageName: "duc-phat-logo",
-              foods: [
-                Food(imageName: "Buttercream_bread"),
-                Food(imageName: "Caramel_Apple_Pie"),
-                Food(imageName: "Choco_Cloud"),
-                Food(imageName: "Cloud_Cake"),
-                Food(imageName: "Cloud_Piece_Cake"),
-                Food(imageName: "Croissant"),
-                Food(imageName: "Fruit_Pastry"),
-                Food(imageName: "Mango_Cloud"),
-                Food(imageName: "Multi-Grain_Pan_Bread"),
-                Food(imageName: "Pain_Au_Chocolat"),
-                Food(imageName: "Party_Bear"),
-                Food(imageName: "Potato_Cheese_Bread"),
-                Food(imageName: "Red_Bean_Bread"),
-                Food(imageName: "Red_Bean_Donut"),
-                Food(imageName: "Strawberry_Cloud_Cake"),
-                Food(imageName: "Tiramisu")
-              ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
-    
+              location: CLLocationCoordinate2D(latitude: 10.83693927062492,
+                                               longitude: 106.65949761748989)),
+
     BakerShop(name: "Girval",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
+              subheading: "Aim to consumer health",
+              description: "he famous 70-year-old cake brand in Saigon, bringing you delicious and scrumptious cakes.",
               address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
               rating: 4.5,
               category: ["Cake"],
@@ -174,12 +146,12 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
-    
+              location: CLLocationCoordinate2D(latitude: 10.740038218330096,
+                                               longitude: 106.71566938699081)),
+
     BakerShop(name: "ABC Bakery",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
+              subheading: "Fresh From Our Hearts",
+              description: "Asia Bakery & Confectionery Pte Ent( Also known as ABC Bakery) is a home-grown bakery chain based in Ho Chi Minh City, Vietnam. We are well known for our high quality range of bakery products such as bread, pastries, cakes and many more.\r\n\r\nABC Bakery first started as a small store in an ally in District 11 and have since developed into a chain of bakeries all over Ho Chi Minh City, Nha Trang & Can Tho. ABC Bakery’s presence is also felt internationally in Cambodia. For more information on the locations of all ABC Bakery Bakery Branches.\r\n\r\nThe founder, Mr Kao Sieu Luc ( Picture of Mr Kao Sieu Luc) , together with over 30 years of experience is the driving force behind the high quality & innovation products constantly being introduced into the market. His name is well-known in the bakery industry and he is referred to the King of Bread of Vietnam.",
               address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
               rating: 4.5,
               category: ["Pastry",  "Cake", "Cupcake"],
@@ -202,9 +174,9 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
-    
+              location: CLLocationCoordinate2D(latitude: 10.75834436429246,
+                                               longitude: 106.62263219452733)),
+
     BakerShop(name: "Sweet Home Bakery",
               subheading: "Fresh Everyday",
               description: "For more than 20 years of establishment and development, SWEETHOME BAKERY has always taken the goal of CAREING YOUR HEALTH as the main goal, to devote ourselves to trying our best to produce products with high nutritional value, ensuring safety. Sanitize food to serve customers.\r\n\r\nBurning with passion in the field of pastries, Mr. Luu Lap Chanh - the founder and his associates have undergone the process of research, testing as well as selection of raw materials, in order to create products. accordance with their own guidelines and criteria.\r\n\r\nThe typical product lines of Sweethome Bakery such as: ice cream cake, moon cake, bread, Kim Bao cake ... have been trusted by customers to be chosen as gifts during Tet holidays such as New Year, Mid-Autumn Festival, birthday, birthday. party, party or simply to enjoy a delicious cake.\r\n \r\nAlong with the criterion \"CUSTOMERS IS GOD\", Sweethome Bakery always:\r\n- Continuously research and improve product quality.\r\n- All activities of Sweethome Bakery focus on meeting the needs of customers, in parallel with improving the service quality management system.",
@@ -230,12 +202,12 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.799543124365599,
-                                               longitude: 106.70860177818224)),
-    
+              location: CLLocationCoordinate2D(latitude: 10.838002707486313,
+                                               longitude: 106.66500565067714)),
+
     BakerShop(name: "BreadTalk",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
+              subheading: "We Speak - The Artist Speaks - The World Speaks",
+              description: "We talk\r\n“BreadTalk leads with prestige and quality”\r\nAn international big brand from Singapore with more than 10 years of experience in serving in the Vietnamese market, we not only focus on bread production, but also provide customers with diverse experiences based on local taste combined with advanced production processes. Guaranteed safety while preserving the taste.\r\n\r\nWith the enthusiasm and skills of the professional team, and intensively trained according to Singapore standards. We always try to improve and bring the best service to our customers. We strive to always be the first choice of bakery food for family, friends and work partners.\r\n\r\nArtist Speaks\r\n“BreadTalk understands Vietnamese cuisine and Vietnamese tastes”\r\n\r\nBreadTalk is famous for its unique creation in the taste of bread and cakes. Expanding the options and Digging deep into each flavor is our \"guideline\" in creativity. Each recipe and selection is balanced by the artisans with the Vietnamese culinary culture. Create your very own taste experience that you can only get at BreadTalk Vietnam.\r\n\r\nNot just Fire Floss - spicy cotton bread. BreadTalk's other lines of breads, cakes, and ice cream cakes have received the trust and love of customers all over the world.\r\nTalking World\r\n“BreadTalk is constantly innovating and creating”\r\n\r\nFire Floss - BreadTalk's signature cake. Won the World's Best Bread Award (World Bread Awards, 2016)\r\n\r\nThe BreadTalk brand has also won several awards for Innovative Approaches to Baking, Unique Flavor Combinations, Innovative Packaging or Marketing Strategy.\r\n\r\nWe are confident to meet all needs from quality, appearance to taste. Enjoy a wonderful culinary experience with us. Because, at BreadTalk, it's not just Bread that is \"Speaking\".",
               address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
               rating: 4.5,
               category: ["Pastry", "Cake", "Cupcake"],
@@ -258,12 +230,12 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
-    
+              location: CLLocationCoordinate2D(latitude: 10.756937567699683,
+                                               longitude: 106.66993744045583)),
+
     BakerShop(name: "Ryoyu",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
+              subheading: "A real Japanese flavour",
+              description: "Bread brand from Japan, with more than 65 years of history. Cakes are always fresh",
               address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
               rating: 4.5,
               category: ["Pastry", "Cake"],
@@ -286,12 +258,12 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
-    
+              location: CLLocationCoordinate2D(latitude: 10.802972261559264,
+                                               longitude: 106.74082861696589)),
+
     BakerShop(name: "Hỷ Lâm Môn",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
+              subheading: "A KING OF SWEAT",
+              description: "Hy Lam Mon Pastry Production Facility was established in October 1984. Initially there was only one store, now we have ten stores concentrated in crowded residential areas of Ho Chi Minh City. Every year, we produce about 50 types of savory cakes and over 70 different types of pastries and a wide variety of cakes and moon cakes.",
               address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
               rating: 4.5,
               category: ["Pastry", "Moon cake", "Cake", "Cupcake"],
@@ -314,11 +286,11 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
+              location: CLLocationCoordinate2D(latitude: 10.759014545092484,
+                                               longitude: 106.66866394413528)),
     BakerShop(name: "Brodard Bakery",
-              subheading: "Freshly Baked Everyday",
-              description: "Since our launch into the United States in 2004, TOUS les JOURS [meaning \"everyday\" in French] has developed into a reputable neighborhood bakery specializing in French-Asian inspired baked goods, hand crafted beverages and bold, flavorful coffee and espresso made with the finest ingredients.We take pride in sourcing and using carefully selected ingredients and promises to bring freshness and quality to our customers. To date, we have more than 90 locations across the United States, and more than 1,650 worldwide.",
+              subheading: "BRODARD, THE JOURNEY OF A 70-YEAR-OLD VIETNAMESE BRAND",
+              description: "Established in Saigon in 1948, featuring advanced French baking techniques, along with an understanding of Vietnamese consumers’ tastes and trends, Brodard’s products present not only an excellent taste but also a sophisticated, creative and stylish appeal.\\nBrodard’s products, from baked goods, cakes, Christmas cakes to mooncakes are carefully controlled: no additives, no chemical sugar and always ensuring food safety and hygiene standards. In addition to the quality of the products, Brodard pays particular attention to the design and style of each cake with a variety of designs to match the customers’ preferences.",
               address: "231 Đ. Hậu Giang, Phường 5, Quận 6, Thành phố Hồ Chí Minh 700000",
               rating: 4.5,
               category: ["Pastry", "Gourmet", "Cake", "Wedding"],
@@ -341,6 +313,6 @@ var bakerShops: [BakerShop] = [
                 Food(imageName: "Strawberry_Cloud_Cake"),
                 Food(imageName: "Tiramisu")
               ],
-              location: CLLocationCoordinate2D(latitude: 10.749997,
-                                               longitude: 106.666664)),
+              location: CLLocationCoordinate2D(latitude: 10.776562210311837,
+                                               longitude: 106.7036094316557)),
 ]

@@ -38,3 +38,26 @@ func mapCategory(categories: [String]) -> [String] {
     
     return categoryIconList
 }
+
+// Decode content of JSON file
+//
+// @Param name: Json file name
+//func decodeContentFrom(JsonFile name: String) -> [BakerShop] {
+//    if let file = Bundle.main.url(forResource: name, withExtension: nil) {
+//        if let data = try? Data(contentsOf: file) {
+//            do {
+//                let decoder = JSONDecoder()
+//                let decodedData = try decoder.decode([BakerShop].self, from: data)
+//                return decodedData
+//            } catch let error {
+//                fatalError("Failed to decode JSON: \(error)")
+//            }
+//        }
+//    } else {
+//        fatalError("Couldn't load \(name) file")
+//    }
+//
+//    return [] as [BakerShop]
+//}
+
+//var bakerShops = decodeContentFrom(JsonFile: "baker_store.json")

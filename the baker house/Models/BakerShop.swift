@@ -17,14 +17,20 @@ struct BakerShop: Identifiable {
     var address: String
     var rating: Float
     var category: [String]
-    
     var imageName: String
+
     var foods: [Food]
     
-    var location: CLLocationCoordinate2D
+//    var coordinates: Coordinate
+    var location = CLLocationCoordinate2D()
 }
 
-struct Food: Identifiable {
+struct Coordinate: Codable {
+    var latitude: Double
+    var longtitude: Double
+}
+
+struct Food: Identifiable, Codable {
     var id = UUID()
     var imageName: String
 }
