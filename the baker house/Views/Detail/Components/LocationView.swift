@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LocationView: View {
+    // Adapt to the display mode (light and dark)
+    @Environment(\.colorScheme) var colorScheme
+    
     var bakerShop: BakerShop
     var body: some View {
         ScrollView {
@@ -32,8 +35,7 @@ struct LocationView: View {
                     .padding(.top, 10)
             } // VStack
             .padding(20)
-            .background(Color("TLJ_logo"))
-            
+            .background(colorScheme == .dark ? ColorConstants.LIGHT_TAUPE : ColorConstants.YANKEES_BLUE)
         } // ScrollView
     }
 }

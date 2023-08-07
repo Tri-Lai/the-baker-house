@@ -18,7 +18,6 @@
 		8412D0C22A73B2CA004EB6F8 /* ShopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D0C12A73B2CA004EB6F8 /* ShopCard.swift */; };
 		841BDCAC2A79443A001425C5 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BDCAB2A79443A001425C5 /* FoodView.swift */; };
 		841BDCB02A7949BE001425C5 /* OpeningHoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BDCAF2A7949BE001425C5 /* OpeningHoursView.swift */; };
-		8444AE6C2A7FB81E0092AA3B /* temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444AE6B2A7FB81E0092AA3B /* temp.swift */; };
 		845B5B952A7BBEB500B427FD /* ShopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B942A7BBEB500B427FD /* ShopHeaderView.swift */; };
 		845B5B972A7BE6E300B427FD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B962A7BE6E300B427FD /* MapView.swift */; };
 		845B5B992A7BEEFC00B427FD /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B5B982A7BEEFC00B427FD /* ContactView.swift */; };
@@ -47,7 +46,6 @@
 		8412D0C12A73B2CA004EB6F8 /* ShopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard.swift; sourceTree = "<group>"; };
 		841BDCAB2A79443A001425C5 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		841BDCAF2A7949BE001425C5 /* OpeningHoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHoursView.swift; sourceTree = "<group>"; };
-		8444AE6B2A7FB81E0092AA3B /* temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp.swift; sourceTree = "<group>"; };
 		845B5B942A7BBEB500B427FD /* ShopHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopHeaderView.swift; sourceTree = "<group>"; };
 		845B5B962A7BE6E300B427FD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		845B5B982A7BEEFC00B427FD /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 			children = (
 				8412D0B32A7387FF004EB6F8 /* ShopList.swift */,
 				845B5B9E2A7C12C500B427FD /* RowView.swift */,
-				8444AE6B2A7FB81E0092AA3B /* temp.swift */,
 			);
 			path = "Shop List";
 			sourceTree = "<group>";
@@ -266,7 +263,6 @@
 				8472FD8B2A7D53F200FFD026 /* MenuView.swift in Sources */,
 				845B5B9B2A7BF3DD00B427FD /* LocationView.swift in Sources */,
 				841BDCAC2A79443A001425C5 /* FoodView.swift in Sources */,
-				8444AE6C2A7FB81E0092AA3B /* temp.swift in Sources */,
 				8412D0BE2A73A3A5004EB6F8 /* BakerShop.swift in Sources */,
 				8412D0A32A73848A004EB6F8 /* ContentView.swift in Sources */,
 				845B5B9F2A7C12C500B427FD /* RowView.swift in Sources */,

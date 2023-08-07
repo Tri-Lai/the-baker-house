@@ -28,3 +28,23 @@ struct Food: Identifiable {
     var id = UUID()
     var imageName: String
 }
+
+enum Filter: String {
+    static var allFilters: [Filter] {
+        return [.Pastry, .Cake, .Cupcake, .Moon_Cake,. Gourmet, .Wedding,
+                .High_Rating, .Normal_Rating, .Low_Rating]
+    }
+    
+    // -- Category --
+    case Pastry
+    case Cake
+    case Cupcake
+    case Gourmet
+    case Wedding
+    case Moon_Cake
+    
+    // -- Rating --
+    case High_Rating
+    case Normal_Rating
+    case Low_Rating
+}

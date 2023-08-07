@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct OpeningHoursView: View {
+    // Adapt to the display mode (light and dark)
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         VStack {
             HStack {
@@ -15,7 +18,7 @@ struct OpeningHoursView: View {
                 Text("Opening hours")
                     .font(.title2)
                     .fontDesign(.serif)
-            }
+            } // HStack
             
             VStack(spacing: 12) {
                 HStack {
@@ -52,15 +55,15 @@ struct OpeningHoursView: View {
                     Text("Sunday\t\t")
                     Text("6:30 AM - 9:30 PM")
                 }
-            }
-            .foregroundColor(.white)
+            } // VStack (date-time)
             .font(.system(size: 18, weight: .thin, design: .serif))
             .lineSpacing(5)
             .padding(30)
             .background(Color("TLJ_logo"))
             .clipShape(Rectangle())
             .cornerRadius(20)
-        }
+            .foregroundColor(colorScheme == .dark ? ColorConstants.VAMPIRE_BLACK : Color.white)
+        } // VStack (schedule)
     }
 }
 

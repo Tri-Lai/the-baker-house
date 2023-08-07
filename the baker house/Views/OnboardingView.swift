@@ -10,7 +10,7 @@ import SwiftUI
 struct OnboardingView: View {
     @Binding var active: Bool
     @State private var showAlert: Bool = false
-    
+
     var body: some View {
         ZStack {
             // Wallpaper

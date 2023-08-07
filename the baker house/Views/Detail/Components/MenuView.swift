@@ -12,8 +12,6 @@ struct MenuView: View {
     
     var body: some View {
         VStack {
-            Image("rolling-pin")
-            
             Text("Menu\n")
                 .font(.title)
                 .fontDesign(.serif)

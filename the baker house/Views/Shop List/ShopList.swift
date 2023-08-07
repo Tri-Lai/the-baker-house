@@ -11,7 +11,12 @@ struct ShopList: View {
     // Store the current mode theme even the user close app
     @AppStorage("isDarkMode") private var isDarkMode = false
     
+    // Filt out the desired category or rating range
+    @State private var selectedFilter = Filter.Gourmet
+    
     @State private var stores: [BakerShop] = bakerShops
+    
+    // Search text
     @State private var searchItem: String = ""
 
     private var filteredStores: [BakerShop] {
@@ -31,15 +36,22 @@ struct ShopList: View {
                         RowView(shop: store)
                     }
                 }
-            }
+            } // VStack (List)
             .toolbar {
-                ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing) {
+                ToolbarItem(placement: ToolbarItemPlacement.navigationBarLeading) {
                         Button(action:  { isDarkMode.toggle() },
                                label:   { isDarkMode ?
                                         Label("Dark", systemImage: "moon.fill"):
                                         Label("Light", systemImage: "sun.max.fill")
                             })
                     }
+                ToolbarItem(placement: .confirmationAction) {
+                    Picker("", selection: $selectedFilter.animation()) {
+                        ForEach(Filter.allFilters, id: \.self) { filter in
+                            Text(filter.rawValue)
+                        }
+                    }
+                }
             }
             .navigationTitle("Stores")
             .animation(.default, value: searchItem)
@@ -48,6 +60,14 @@ struct ShopList: View {
         } // NavigationStack
         .environment(\.colorScheme, isDarkMode ? .dark : .light)
     }
+    
+    // -- Method
+//    private func filterShops() -> [BakerShop] {
+//        if selectedFilter == Filter.Gourmet {
+//            return stores.filter{$0.category}
+//        }
+//    }
+    
 }
 
 struct ShopList_Previews: PreviewProvider {

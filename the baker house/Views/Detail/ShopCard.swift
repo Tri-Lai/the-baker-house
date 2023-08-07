@@ -37,10 +37,10 @@ struct ShopCard: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .center, spacing: 20) {
-                    // Header
+                    // -- Header --
                     ShopHeaderView(bakerShop: bakerShop)
               
-                    // Content
+                    // -- Content --
                     
                     // Category
                     HStack {
